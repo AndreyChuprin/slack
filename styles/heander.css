@@ -1,0 +1,106 @@
+.heander {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.channelName {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: 22.21px;
+}
+
+.lock {
+    background: url(../images/lock.svg);
+    width: 10.32px;
+    height: 12px;
+}
+
+.channelLink {
+    margin-left: 5.47px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1d1c1d;
+}
+
+.channelMenu {
+    background: url(../images/channelMenu.svg);
+    width: 203px;
+    height: 25px;
+    margin-left: 13px;
+}
+
+.heander__right {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    width: 13.96px;
+    height: 14px;
+    margin-right: 24.52px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    margin-right: 27.71px;
+}
+
+.gear {
+    width: 15px;
+    height: 15px;
+    margin-right: 24.71px;
+}
+
+.search {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    height: 32px;
+    border: 1px solid #bbbabb;
+    border-radius: 5px;
+    margin-right: 20.12px;
+}
+
+.search__sign {
+    margin-left: 11.23px;
+    width: 13.51px;
+    height: 12.99px;
+}
+
+.search__text {
+    margin-left: 8.88px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+}
+
+.dog {
+    width: 16.81px;
+    height: 16px;
+    margin-right: 18.89px;
+}
+
+.star {
+    width: 16.23px;
+    height: 15.5px;
+    margin-right: 21.92px;
+}
+
+.points {
+    width: 3px;
+    height: 16px;
+    margin-right: 21.78px;
+}
