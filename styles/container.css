@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-flow: row;
+    width: 1440px;
 }
 
 .container__sidePanel {
@@ -11,16 +12,5 @@
 
 .container__workingSpace {
     width: 85%;
-    height: 100%;
     background: #ffffff;
-}
-
-.top {
-    display: flex;
-    flex-flow: row;
-}
-
-.top__right {
-    display: flex;
-    flex-flow: row;
 }
