@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  flex-flow: row;
+  justify-self: start;
+  margin-top: 15px;
+}
+
+.content__line {
+  width: 4px;
+  height: 310px;
+  background: #dddddd;
+  border-radius: 8px;
+}
+
+.content__box {
+  margin-left: 15px;
+}
+
+.content__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1d1c1d;
+}
+
+.content__subtitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1d1c1d;
+  margin-bottom: 32px;
+  margin-top: 7px;
+
+}
+
+.content__card {
+  width: 360px;
+  height: 226px;
+}

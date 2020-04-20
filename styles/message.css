@@ -1,0 +1,92 @@
+.message {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.message--activ {
+    margin-left: 20px;
+    margin-top: 11px;
+    margin-bottom: 77px;
+}
+.message__avatar {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+    border-radius: 2px;
+}
+
+.message__avatar--figma {
+    margin-top: 3px;
+    background: url(../images/figma.svg) no-repeat;
+    align-self: start;
+}
+.message__avatar--robert {
+    background: url(../images/robert.svg) no-repeat;
+}
+
+.message__avatar--alex {
+    background: url(../images/alex.svg) no-repeat;
+}
+
+.message__avatar--sebastian  {
+    background: url(../images/sebastian.svg) no-repeat;
+}
+
+.message__avatar--elliot {
+    background: url(../images/elliot.svg) no-repeat;
+}
+
+.message__container {
+    margin-left: 9px;
+}
+
+.message__header {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+}
+
+.message__name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1d1c1d;
+}
+
+.message__time {
+    margin-left: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #616061;
+}
+
+.message__body {
+    margin-top: 5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.message__bodySite {
+    color: #2C5CC5;
+}
+ .message__body--service {
+    color: #616061;
+ }
+
+.list {
+    margin-left: 20px;
+    display: grid;
+    row-gap: 13px;
+    grid-template-columns: 100%;
+}
