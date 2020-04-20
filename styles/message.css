@@ -30,7 +30,7 @@
     background: url(../images/alex.svg) no-repeat;
 }
 
-.message__avatar--sebastian  {
+.message__avatar--sebastian {
     background: url(../images/sebastian.svg) no-repeat;
 }
 
@@ -78,15 +78,24 @@
 }
 
 .message__bodySite {
-    color: #2C5CC5;
+    color: #2c5cc5;
 }
- .message__body--service {
+.message__body--service {
     color: #616061;
- }
+}
 
 .list {
     margin-left: 20px;
     display: grid;
-    row-gap: 13px;
+    row-gap: 14px;
     grid-template-columns: 100%;
+}
+
+.footer {
+    background: url(../images/footer.svg);
+    width: 1200px;
+    height: 103.78px;
+    margin-bottom: 12px;
+    margin-left: 11px;
+    margin-top: 13px;
 }
