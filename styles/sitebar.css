@@ -1,11 +1,21 @@
 .teamBlock {
-    width: 188px;
+    margin-bottom: 13.3px;
 }
 
-.teamBlock__teamNameString {
+.functionBlock {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+}
+
+.functionBlock--activ {
+    width: 188px;
+    height: 28px;
+    padding-left: 9px;
+    margin-left: 9px;
+    margin-bottom: 21.7px;
+    background: #5c345c;
+    border-radius: 4px;
 }
 
 .teamBlock__teamName {
@@ -47,4 +57,46 @@
     line-height: 17px;
     color: #ffffff;
     opacity: 0.65;
+}
+
+.switch {
+    width: 14px;
+    height: 11.59px;
+    background: url(../images/switch.svg) no-repeat;
+    margin-right: 9px;
+}
+
+.functionBlock__name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    opacity: 0.65;
+}
+
+.grille {
+    width: 12px;
+    height: 12px;
+    background: url(../images/grille.svg) no-repeat;
+    margin-right: 9px;
+}
+
+.channelsList {
+    margin-top: 33px;
+    display: grid;
+    row-gap: 13px;
+    grid-template-columns: 100%;
+}
+
+.wheel {
+    width: 16px;
+    height: 16px;
+    background: url(../images/add.svg) no-repeat;
+}
+
+.functionBlock__name--title {
+    margin-right: 113px;
+    font-weight: bold;
 }
