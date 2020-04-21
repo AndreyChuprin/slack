@@ -1,0 +1,50 @@
+.teamBlock {
+    width: 188px;
+}
+
+.teamBlock__teamNameString {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.teamBlock__teamName {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-bottom: 1px;
+    margin-right: 6px;
+}
+
+.chevron {
+    width: 7px;
+    height: 5.25px;
+    background: url(../images/chevron.svg) no-repeat;
+    margin-right: 25.12px;
+}
+
+.bell {
+    width: 17px;
+    height: 17.08px;
+    background: url(../images/bell.svg) no-repeat;
+}
+
+.ellipse {
+    width: 9px;
+    height: 9px;
+    background: url(../images/ellipse.svg) no-repeat;
+    margin-right: 7px;
+}
+
+.userName {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    opacity: 0.65;
+}

@@ -8,6 +8,9 @@
     width: 15%;
     background: #3f103f;
     overflow: auto;
+    padding-left: 15px;
+    padding-top: 11px;
+    padding-right: 16px;
 }
 
 .container__workingSpace {

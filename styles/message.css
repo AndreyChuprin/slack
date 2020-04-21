@@ -45,7 +45,8 @@
 .message__header {
     display: flex;
     flex-flow: row;
-    align-items: flex-end;
+    align-items:center;
+    justify-items: flex-end;
 }
 
 .message__name {
@@ -57,6 +58,20 @@
     color: #1d1c1d;
 }
 
+.message__note {
+    margin-left: 9px;
+    text-align: center;
+    width: 25px;
+    height: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #575757;
+    background: #e2e2e2;
+    border-radius: 2px;
+}
 .message__time {
     margin-left: 5px;
     font-family: Lato;
