@@ -96,7 +96,68 @@
     background: url(../images/add.svg) no-repeat;
 }
 
+.functionBlock--title {
+    justify-content: space-between;
+}
+
 .functionBlock__name--title {
-    margin-right: 113px;
     font-weight: bold;
+}
+
+.locklight {
+    margin-right: 5.7px;
+    width: 9px;
+    height: 11px;
+    background: url(../images/locklight.svg) no-repeat;
+}
+
+.hashtag {
+    margin-right: 6px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.plus {
+    margin-right: 6px;
+    width: 8px;
+    height: 8px;
+    background: url(../images/plus.svg) no-repeat;
+    opacity: 0.6;
+}
+
+.functionBlock__name--subtitle {
+    margin-top: 29px;
+    margin-bottom: 30px;
+}
+
+.heard {
+    margin-right: 6px;
+    width: 10px;
+    height: 9px;
+    background: url(../images/heard.svg) no-repeat;
+}
+
+.channelsList--message {
+    margin-top: 0px;
+    margin-bottom: 29px;
+}
+
+.spot {
+    width: 27px;
+    height: 18px;
+    margin-left: 91px;
+    background: #cb2955;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
 }
